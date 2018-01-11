@@ -15,6 +15,7 @@ require("./elements/core/ui-page");
 require("./elements/core/ui-viewport");
 require("./elements/components/ui-alerts");
 require("./elements/components/ui-bars");
+require("./elements/components/action-bar");
 require("./elements/components/ui-datagrid");
 require("./elements/components/ui-dg-columns");
 require("./elements/components/ui-drawer");
@@ -61,6 +62,7 @@ function configure(config, configCallback) {
     config.globalResources([
         aurelia_pal_1.PLATFORM.moduleName('./elements/components/ui-alerts'),
         aurelia_pal_1.PLATFORM.moduleName('./elements/components/ui-bars'),
+        aurelia_pal_1.PLATFORM.moduleName('./elements/components/action-bar'),
         aurelia_pal_1.PLATFORM.moduleName('./elements/components/ui-datagrid'),
         aurelia_pal_1.PLATFORM.moduleName('./elements/components/ui-dg-columns'),
         aurelia_pal_1.PLATFORM.moduleName('./elements/components/ui-drawer'),
