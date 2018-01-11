@@ -1,0 +1,70 @@
+@import './_variables.scss';
+$action-bar-dimension: 50px;
+action-bar {
+    // reset some styles for all action bar children:
+    * {
+        border-color: $primary-background-colour;
+        border-style: none;
+        border-width: 1px;
+    }
+    .action-bar {
+        height: $action-bar-dimension;
+        background-color: $primary-colour-active;
+    }
+    .action-bar-left,
+    .action-bar-right {
+        padding: 0;
+    }
+    .action-bar-center {
+        color: $primary-background-colour;
+        .action-bar-center-heading {
+            margin: 0;
+        }
+    }
+    .action-bar-left {
+        border-right-style: solid;
+        &.col-md {
+            height: $action-bar-dimension;
+        }
+        .action-bar-left-heading {
+            height: $action-bar-dimension;
+            padding-left: 0.5rem;
+            border-left-style: solid;
+        }
+    }
+    .action-bar-right {
+        border-left-style: solid;
+        &.small-icon {
+            width: $action-bar-dimension;
+        }
+    }
+    .menu-button {
+        border-right-style: solid;
+    }
+    .icon-extra-small {
+        height: $tt-icon-size-extra-small;
+    }
+    .icon-small {
+        height: $tt-icon-size-small;
+    }
+    .drill360-logo {
+        padding: 0.5rem;
+        height: $action-bar-dimension;
+        width: 5.625rem;
+    }
+    .app-name-caption {
+        font-family: $tt-font-family;
+        font-size: $tt-font-size-medium;
+        font-weight: $tt-font-weight-bold;
+        text-align: left;
+        color: $primary-background-colour;
+    }
+    .username-caption {
+        font-family: $tt-font-family;
+        font-size: $tt-font-size-small;
+        font-weight: $tt-font-weight-bold;
+        text-align: left;
+        padding-left: 0.5rem;
+        color: $primary-background-colour;
+    }
+}

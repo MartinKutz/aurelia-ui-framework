@@ -1,0 +1,41 @@
+// Colors
+// Colors from the Schindler Design style guide:
+// https://app.zeplin.io/project/597b0a9c4d60363c32d965a7/screen/59f8cb4e946352fbedd72663
+$primary-background-colour: #ffffff;
+$primary-colour-active: #40818c;
+$primary-colour-inactive: #bfbfbf;
+$highlighting-colour: #badfda;
+$highlighting-colour-active: #1576df;
+$primary-foreground-colour: #2d2d2d;
+$status-ok-colour: #52ac59;
+$status-error-colour: #cc011d;
+$font-colour-inactive: #bfbfbf;
+$machine-list-font-color:#4a4a4a;
+$tt-separator-color: #c3c2c2;
+$tt-separator-style: 1px solid $tt-separator-color;
+// Fonts
+// Fonts from the Schindler Design style guide:
+// https://app.zeplin.io/project/597b0a9c4d60363c32d965a7/screen/59f8cb4e0d6e9b65e611a34a
+$tt-font-family: 'FlexoRegular';
+$tt-font-weight-bold: 900;
+$tt-font-weight-normal: 500;
+$tt-font-italic: italic;
+$tt-font-bold: bold;
+$tt-font-stretch: condensed;
+$tt-font-letter-spacing: 0.7px;
+// 1rem == 16px
+$tt-font-size-extra-small: 0.875rem;
+$tt-font-size-small: 1rem;
+$tt-font-size-medium: 1.25rem;
+$tt-font-size-large: 1.4375rem;
+
+$tt-font-size-caption-small: 1.375rem;
+$tt-font-size-caption-medium: 2rem;
+$tt-font-size-caption-large: 2.75rem;
+
+// Icons
+$tt-icon-size-extra-small: 2rem;
+$tt-icon-size-small: 2.6875rem;
+$tt-icon-size-medium: 3.375rem;
+$tt-icon-size-large: 4rem;
+$tt-toggle-size:0.75rem;
